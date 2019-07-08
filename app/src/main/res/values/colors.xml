@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#022A6D</color>
+    <color name="colorPrimaryDark">#0C2D68</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="recycle_item_color">#004008</color>
+    <color name="fab_hazine">#AD0F35</color>
+    <color name="colorgori">#36C716</color>
+
+</resources>

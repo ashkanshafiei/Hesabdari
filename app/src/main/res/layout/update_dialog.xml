@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imputupdateHesabJadid"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateeditTextHesabJadid"
+            android:singleLine="true"
+            android:inputType="text"
+            android:gravity="right"
+            android:hint="ویرایش حساب"
+            android:drawableLeft="@drawable/accunt"
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateeditTextMojodiJadid"
+        android:singleLine="true"
+        android:inputType="text"
+        android:gravity="right"
+        android:hint="موجودی حساب"
+        android:drawableLeft="@drawable/money"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_image_OK"
+            android:src="@drawable/ok"
+            android:layout_weight=".5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_image_Cancel"
+            android:src="@drawable/cancell"
+            android:layout_weight=".5"
+            />
+
+    </LinearLayout>
+</LinearLayout>

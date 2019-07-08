@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_daramad">
+
+    <include layout="@layout/toolbar_daramad"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputMablagh"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextMablagh"
+                android:singleLine="true"
+                android:inputType="number"
+                android:gravity="right"
+                android:hint="@string/hint_mablagh"
+                android:drawableLeft="@drawable/money"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputHesab"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextHesab"
+                android:singleLine="true"
+                android:inputType="text"
+                android:gravity="right"
+                android:hint="@string/hint_hesab"
+                android:drawableLeft="@drawable/accunt"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputDastebandi"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextDastebandi"
+                android:singleLine="true"
+                android:inputType="text"
+                android:gravity="right"
+                android:hint="@string/hint_dastebandi"
+                android:drawableLeft="@drawable/group"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTarikh"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextTarikh"
+                android:singleLine="true"
+                android:inputType="date"
+                android:gravity="right"
+                android:hint="@string/hint_tarikh"
+                android:drawableLeft="@drawable/calendar"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputTozihat"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextTozihat"
+                android:singleLine="true"
+                android:inputType="text"
+                android:gravity="right"
+                android:hint="@string/hint_tozihat"
+                android:drawableLeft="@drawable/desc"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="ذخیره"
+            android:textColor="#FFF"
+            android:id="@+id/btn_sign_Up"
+            />
+        
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
